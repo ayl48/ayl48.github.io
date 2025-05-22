@@ -15,10 +15,10 @@ title: Annabel's Portfolio # This is what shows up in the tab of the browser
 name: Annabel Lian
 headline: Electrical Engineer at Globe Tracker ApS | Cornell M.Eng. ’25 | Passionate about product development, embedded systems, hardware-software integration, PCB design
 description: >- # dont remove this line. this will ignore all new lines until the next section
-  I'm an electrical engineer passionate about turning embedded systems into impactful, real-world products. With hands-on experience in PCB design, microcontroller programming, and system integration, I enjoy working across hardware and software to bring ideas to life. My interests lie at the intersection of engineering and product development—designing solutions that are not only technically sound but also manufacturable, user-focused, and ready for market. Currently pursuing my M.Eng. at Cornell, I’m eager to contribute to teams where creativity, technical rigor, and product thinking come together.
+  I'm an electrical engineer passionate about turning embedded systems into impactful, real-world products. With hands-on experience in PCB design, microcontroller programming, and system integration, I enjoy working across hardware and software to bring ideas to life. My interests lie at the intersection of engineering and product development—designing solutions that are not only technically sound but also manufacturable, user-focused, and ready for market. I recently graduated with an M.Eng. degree from Cornell. I’m eager to contribute to teams where creativity, technical rigor, and product thinking come together.
 
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
-profile_image: ./assets/images/profile-image/Profile.png
+profile_image: ./assets/images/profile-image/profile.jpg
 
 
 # Link your resume
@@ -43,47 +43,46 @@ external-links:    # input only your own url slug. The icons with missing entrie
 
 # Skills Section - Add the list of your Skills by categories/tools. The indentation for each level needs to be precise.
 skills:
-  - category: 3D Modeling
+  - category: Embedded Systems and Hardware
     tools:
-    - Onshape
-    - Solidworks
-    - Creo
-    - Fusion 360 (Autodesk)
-    - Blender (for complex shapes or animations)
-    - Siemens NX
-    - Inventor (Autodesk)
-    - CATIA (Dassault Systèmes)
-  - category: Prototyping
-    tools:
-    - SLA
-    - CNC
-    - FDM
-    - SLS
-    - DMLS
-    - PolyJet Printing
-    - Vacuum Casting
-    - Laser Cutting
-    - Water Jet Cutting
-    - Arduino / Raspberry Pi
+    - Arduino
+    - Raspberry Pi/Pi Pico/ Pico W
+    - Altera Cyclone DE1-SoC (FPGA)
     - Breadboarding for circuit testing
-  - category: Design Standards / Practices
+    - Segger J-Link
+    - Oscilloscope, multimeter (DMM), soldering
+    - Debugging (embedded + hardware-level)
+  - category: Programming Languages
     tools:
-    - GD&T ASME Y14
-    - ISO fits and tolerances
-    - PLM (PTC Windchill / Arena)
-  - category: PCB Design
+    - Python
+    - C
+    - C++
+    - MATLAB
+    - Assembly
+    - Verilog
+  - category: PCB and Circuit Design
     tools:
     - Altium Designer
-    - Altium
-    - Eagle
     - KiCad
-  - category: Problem Solving / Risk Management
+    - Cadence Virtuoso
+    - PLECS
+    - LTSpice
+  - category: Tools and Development Environments
     tools:
-    - Root Cause Analysis (e.g., 5 Whys, Fishbone Diagram)
-    - DFMEA / PFMEA
-    - Six Sigma methodologies
-    - Shain Red-X
-
+    - Linux
+    - Quartus
+    - ModelSim
+    - GitHub
+    - Jira
+  - category: 3D Modeling
+    tools:
+    - Solidworks
+    - Inventor (Autodesk)
+  - category: Documentation and Markup
+    tools:
+    - LaTex
+    - HTML
+    - Microsoft Word and Excel
 
 # Contact Form Setup. Setup an account and copy over the key. When someone fills out the form, it will be received in your email.
 formspree-key:   https://formspree.io/f/{8-digit key}
@@ -92,12 +91,12 @@ formspree-key:   https://formspree.io/f/{8-digit key}
 
 # Active theme (Updatethis to switch themes). Make sure to keep the indentation the samne.
 colors: # this is the basic theme
-  text: "#1a1c20"
-  border: "#ddd"
-  link: "#4a76ee"
-  highlight: "#0c0cf2"
-  background: "#ffffff"
-  light_background: "#f3f5fb"
+  text: "#2c3333"
+  border: "#e0f2ef"
+  link: "#40b3a2"
+  highlight: "#2a9d8f"
+  background: "#f7fbfa"
+  light_background: "#f0f9f7"
 
 # A few examples.
 basic theme:
