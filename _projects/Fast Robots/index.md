@@ -16,9 +16,7 @@ main-image: /car_banner.jpeg
 ---
 
 ---
-## Link Full Web Page Detailing Project
+> ## Link Full Web Page Detailing Project
 > [Fast Robots Web Page](https://ayl48.github.io/FastRobots/)
-
-<br>
 
 ---
